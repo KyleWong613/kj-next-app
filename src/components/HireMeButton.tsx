@@ -19,9 +19,9 @@ export function HireMeButton() {
               </motion.a>
             </nav>
             <div>
-              <a className="items-center  translate-x-[-50%] translate-y-[-50%] shadow-md border
-               border-solid bg-dark rounded-full"
-               href="mailto:kaijengre2@gmail.com">
+              <a className="translate-x-[50%] translate-y-[-50%] shadow-md border absolute top-[50%] shadow-md border-solid flex items-center justify-center 
+              absolute left-[70%]  bg-dark rounded-full md:w-12 md:h-12 md:text-[10px] " 
+               href="/contact">
                 Hire Me
               </a>
             </div>
