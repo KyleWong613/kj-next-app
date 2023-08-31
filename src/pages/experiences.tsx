@@ -9,8 +9,8 @@ import { PositionType } from "@/util/ExperienceModel"
 import Layout from '@/components/Layout';
 import Link from 'next/link';
 
-const Details = ({position, company, companysite, time, work, worklink, worklinkdesc, work2, worklink2, worklinkdesc2, work3}:
-  {position: string, company: string, companysite: string, time:string, work: string, worklink: string, worklinkdesc: string, 
+const Details = ({position, company, companysite, startyear, endyear, startmonth, endmonth, work, worklink, worklinkdesc, work2, worklink2, worklinkdesc2, work3}:
+  {position: string, company: string, companysite: string, startyear:string, endyear:string, startmonth:string, endmonth:string, work: string, worklink: string, worklinkdesc: string, 
    work2: string, worklink2: string, worklinkdesc2: string, work3: string}) =>
 {
   return <li className='my-8 first:mt-0 last:mb-0 mx-auto flex flex-col'>
@@ -18,9 +18,11 @@ const Details = ({position, company, companysite, time, work, worklink, worklink
         <h3 className='capitalize font-bold text-2xl'>
           {position}&nbsp;<a href={companysite}>@{company}</a>
         </h3>
+        <div className="flex flex-nowrap lg:justify-start whitespace-nowrap">
         <span className='capitalize font-medium text-dark'>
-          {time}
+          <i>{startyear}</i> <b>{startmonth}</b> - <i>{endyear}</i> <b>{endmonth}</b>
         </span>
+        </div>
         <p className='font-medium w-full'>{work}<Link className="highlight" href={worklink} target="_blank">{worklinkdesc}</Link></p>
         <p className='font-medium w-full'>{work2}<Link className="highlight" href={worklink} target="_blank">{worklinkdesc2}</Link></p>
         <p className='font-medium w-full'>{work3}</p>
@@ -63,7 +65,7 @@ export default function Experiences() {
                   height={50}
                   alt="ars"
                 />          
-                <Details position="Software Developer" company="Alpha Red Solutions" companysite="https://www.alphareds.com/" time="2019-2022" 
+                <Details position="Software Developer" company="Alpha Red Solutions" companysite="https://www.alphareds.com/" startyear="2019" endyear="2022" startmonth='March' endmonth='April'
                 work="Frontend Development of e-commerce Hotel/Travel Booking Sites such as "
                 worklink= "https://www.mayflower.com.my/"
                 worklinkdesc= "Mayflower"
@@ -79,7 +81,7 @@ export default function Experiences() {
                   height={75}
                   alt="micron"
                 />          
-                <Details position="Software Engineer" company="Micron Technology" companysite="https://www.micron.com/" time="2022-Current"
+                <Details position="Software Engineer" company="Micron Technology" companysite="https://www.micron.com/" startyear="2022" endyear="2023" startmonth='April' endmonth='November'
                 work="Maintaining the Micron Backend Advanced Scheduler (BEMAS) Application focusing on Planning and "
                 worklink= "https://www.vms-solutions.com/en/solutions/optimized-scheduling.php"
                 worklinkdesc= "Optimized Scheduling"

@@ -12,7 +12,8 @@ const nextConfig = {
         defaultLocale: "en",
       },
     images: { domains: ["lemonsqueezy.imgix.net", "image.tmdb.org", "kaijeng.netlify.app"] },
-}
+    render: 'client',
+    }
 
 
 module.exports = nextConfig

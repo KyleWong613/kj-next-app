@@ -8,7 +8,7 @@ class Logo extends Component {
   render () {
     return (
       <header>      
-          <div className='flex items-center justify-center mt-2'>
+          <div className='flex items-center justify-center mt-2 lg:hidden'>
             <MotionLink href="/"
             className='w-16 h-16 bg-dark text-light flex items-center justify-center font-bold rounded-full'
             >KJ</MotionLink>

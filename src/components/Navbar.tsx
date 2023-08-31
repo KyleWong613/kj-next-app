@@ -5,6 +5,7 @@ import Logo from '../components/Logo';
 import {GithubSvg, LinkedInSvg} from './Icons';
 import {motion} from 'framer-motion';
 import Circle from '@/components/Circle';
+import {HireMeButton} from '@/components/HireMeButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate} from '@fortawesome/free-solid-svg-icons';
 
@@ -24,6 +25,7 @@ const Navbar = () => {
           <span className={`block w-6 h-0.5 bg-gray-500 bg-dark dark:bg-light transition-all duration-300 ease-out opacity-100 rounded-sm my-0.5 ${isOpen ? 'hidden' : 'opacity-100'}`}></span>
           <span className={`block w-6 h-0.5 bg-gray-500 bg-dark dark:bg-light transition-all duration-300 ease-out rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}}`}></span>
         </button> 
+        <HireMeButton />
 
         <div className="w-full flex justify-between items-center lg:hidden">
           <nav>
@@ -59,7 +61,7 @@ const Navbar = () => {
         {/* Responsive Navbar */}
         {
           isOpen ? 
-          <div className="min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+          <div className="min-w-[70vw] flex flex-col justify-between hidden md:block items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
           bg-dark/90 border-2 border-zinc-400 hover:border-zinc-950 dark:bg-light/75 bg-white rounded-lg backdrop-blur-md py-32 z-50">
             <nav className="flex items-center flex-col justify-center">
               <Link href="/" className='mr-4'>Home</Link>
@@ -87,6 +89,7 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faCertificate} className="fa-2rem w-8 mx-3" />
               </motion.a>
             </nav>
+
           </div>
           : null
         }
