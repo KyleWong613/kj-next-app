@@ -1,9 +1,10 @@
 import styles from './Button.module.css'
 import {GithubSvg, LinkedInSvg} from './Icons';
 import {motion} from 'framer-motion';
+import Link from 'next/link';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate} from '@fortawesome/free-solid-svg-icons';
-import React from 'react';
 
 export function HireMeButton() {
   const [isActive, setIsActive] = React.useState(false);
@@ -18,12 +19,11 @@ export function HireMeButton() {
               <FontAwesomeIcon icon={faCertificate} className="fa-2rem w-8 mx-3" />
               </motion.a>
             </nav>
-            <div>
-              <a className="translate-x-[50%] translate-y-[-50%] shadow-md border absolute top-[50%] shadow-md border-solid flex items-center justify-center 
-              absolute left-[70%]  bg-dark rounded-full md:w-12 md:h-12 md:text-[10px] " 
-               href="/contact">
-                Hire Me
-              </a>
+            <div>     
+              <Link href="/contact" className="translate-x-[50%] translate-y-[-50%] shadow-md border absolute top-[50%] shadow-md border-solid flex items-center justify-center 
+                    absolute left-[70%]  bg-dark rounded-full md:w-12 md:h-12 md:text-[10px]">
+              Hire Me
+              </Link>
             </div>
           
         </div> 
