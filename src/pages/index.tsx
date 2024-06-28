@@ -67,7 +67,7 @@ export default function Home() {
         </Link> */}
         <Link className={styles.card} href="https://kaijeng.netlify.app/"><h2>My Netlify App</h2>
           <br />
-          <p>Go to this page to learn about my Netlify Portfolio</p>
+          <p>Go to this page to Check out my Netlify Portfolio</p>
         </Link>
       </div>
     </div>

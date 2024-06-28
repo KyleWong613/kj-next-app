@@ -73,7 +73,7 @@ export default function Experiences() {
                 work2="Governs most of the in-house applications such as Loan System, Member SignUp system, Documents Management System"
                 worklink2 = ""
                 worklinkdesc2=''
-                work3="Collaborates with Vendors to enhance on the systems available"/>
+                work3="Collaborates with Vendors such as Finology, Wander, Tess, Silverlake to enhance on systems"/>
 
               <Image
                   className="my-8 first:mt-0 last:mb-0 flex-col"

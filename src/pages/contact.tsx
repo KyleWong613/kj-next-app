@@ -125,15 +125,11 @@ export default function Contact({contacts}: InferGetStaticPropsType<typeof getSt
                       </div>
                     </div>
                   </div>
-                        
                 </div>
-
-                
           </main>
         </div>
       </div>
   
     );
   }
-  
 }
