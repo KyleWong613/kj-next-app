@@ -58,6 +58,40 @@ export default function Experiences() {
             <div className='w-[75%] mx-auto relative'>
               <div className="absolute left-12 top-0 h-full bg-dark origin-top ">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">My Career</h2>
+
+              <Image
+                  className="my-8 first:mt-0 last:mb-0 flex-col"
+                  src="/aeoncredit.png"
+                  width={75}
+                  height={75}
+                  alt="aeoncredit"
+                />          
+                <Details position="Senior .NET Developer" company="Aeon Credit Service " companysite="https://www.aeoncredit.com.my/" startyear="2023" endyear="2024" startmonth='November' endmonth='November'
+                work="Web & Wallet Team"
+                worklink= "h"
+                worklinkdesc= "Web & Wallet Team"
+                work2="Mgft"
+                worklink2 = ""
+                worklinkdesc2=''
+                work3=""/>
+
+              <Image
+                  className="my-8 first:mt-0 last:mb-0 flex-col"
+                  src="/micron.png"
+                  width={75}
+                  height={75}
+                  alt="micron"
+                />          
+                <Details position="Software Engineer" company="Micron Technology" companysite="https://www.micron.com/" startyear="2022" endyear="2023" startmonth='April' endmonth='November'
+                work="Maintaining the Micron Backend Advanced Scheduler (BEMAS) Application focusing on Planning and "
+                worklink= "https://www.vms-solutions.com/en/solutions/optimized-scheduling.php"
+                worklinkdesc= "Optimized Scheduling"
+                work2="Migrating Applications from VMs to Cloud using Tools for Containerization such as Docker and Openshift"
+                worklink2 = ""
+                worklinkdesc2=''
+                work3="Migrating API Gateway from WSO2 to Apigee"/>
+
+
                 <Image
                   className="my-8 first:mt-0 last:mb-0 flex-col"
                   src="/ars.jpg"
@@ -74,21 +108,7 @@ export default function Experiences() {
                 worklinkdesc2= "Adobe Experience Cloud"
                 work3="Kickoff of A universal e-wallet service In Collaboration with U Mobile"/>
             
-                <Image
-                  className="my-8 first:mt-0 last:mb-0 flex-col"
-                  src="/micron.png"
-                  width={75}
-                  height={75}
-                  alt="micron"
-                />          
-                <Details position="Software Engineer" company="Micron Technology" companysite="https://www.micron.com/" startyear="2022" endyear="2023" startmonth='April' endmonth='November'
-                work="Maintaining the Micron Backend Advanced Scheduler (BEMAS) Application focusing on Planning and "
-                worklink= "https://www.vms-solutions.com/en/solutions/optimized-scheduling.php"
-                worklinkdesc= "Optimized Scheduling"
-                work2="Migrating Applications from VMs to Cloud using Tools for Containerization such as Docker and Openshift"
-                worklink2 = ""
-                worklinkdesc2=''
-                work3="Migrating API Gateway from WSO2 to Apigee"/>
+                
                 </div>
             </div>
           </main>
