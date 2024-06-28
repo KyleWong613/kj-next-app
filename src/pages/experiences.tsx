@@ -16,7 +16,7 @@ const Details = ({position, company, companysite, startyear, endyear, startmonth
   return <li className='my-8 first:mt-0 last:mb-0 mx-auto flex flex-col'>
       <div>
         <h3 className='capitalize font-bold text-2xl'>
-          {position}&nbsp;<a href={companysite}>@{company}</a>
+          {position}&nbsp;<a href={companysite}>@ {company}</a>
         </h3>
         <div className="flex flex-nowrap lg:justify-start whitespace-nowrap">
         <span className='capitalize font-medium text-dark'>
@@ -61,7 +61,7 @@ export default function Experiences() {
 
               <Image
                   className="my-8 first:mt-0 last:mb-0 flex-col"
-                  src="/aeoncredit.png"
+                  src="/aeoncredit.jpg"
                   width={75}
                   height={75}
                   alt="aeoncredit"
@@ -69,11 +69,11 @@ export default function Experiences() {
                 <Details position="Senior .NET Developer" company="Aeon Credit Service " companysite="https://www.aeoncredit.com.my/" startyear="2023" endyear="2024" startmonth='November' endmonth='November'
                 work="Web & Wallet Team"
                 worklink= "h"
-                worklinkdesc= "Web & Wallet Team"
-                work2="Mgft"
+                worklinkdesc= ""
+                work2="Governs most of the in-house applications such as Loan System, Member SignUp system, Documents Management System"
                 worklink2 = ""
                 worklinkdesc2=''
-                work3=""/>
+                work3="Collaborates with Vendors to enhance on the systems available"/>
 
               <Image
                   className="my-8 first:mt-0 last:mb-0 flex-col"
