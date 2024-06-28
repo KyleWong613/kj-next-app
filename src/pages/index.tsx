@@ -43,28 +43,28 @@ export default function Home() {
       <div className={styles.grid}>
         <Link className={styles.card} href="/about"><h2>About Me</h2>
           <br />
-          <p>Go to this page to learn more about me</p>
+          <p>More about me</p>
         </Link>
 
         <Link className={styles.card} href="/experiences"><h2>My Experiences</h2>
           <br />
-          <p>Go to this page to learn about my Experiences</p>
+          <p>Check out my Experiences</p>
         </Link>
 
         <Link className={styles.card} href="/certifications"><h2>My Certifications</h2>
           <br />
-          <p>Go to this page to check out my Certifications</p>
+          <p>Check out my Certifications here</p>
         </Link>
 
         <Link className={styles.card} href="/contact"><h2>My Contact</h2>
           <br />
-          <p>Go to this page to Contact Me</p>
+          <p>Contact Me Here</p>
         </Link>
 
-        <Link className={styles.card} href="/sorting"><h2>Sorting</h2>
+        {/* <Link className={styles.card} href="/sorting"><h2>Sorting</h2>
           <br />
           <p>Go to this page to learn about Sorting Algorithm</p>
-        </Link>
+        </Link> */}
         <Link className={styles.card} href="https://kaijeng.netlify.app/"><h2>My Netlify App</h2>
           <br />
           <p>Go to this page to learn about my Netlify Portfolio</p>

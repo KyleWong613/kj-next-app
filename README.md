@@ -2,7 +2,10 @@ This is My Portfolio built with [Next.js](https://nextjs.org/).
 
 ## Getting Started
 
-First, run the development server:
+First, install packages
+npm i
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -11,6 +14,8 @@ yarn dev
 # or
 pnpm dev
 ```
+
+If development server does not run, upgrade your Node version
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
