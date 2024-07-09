@@ -11,7 +11,7 @@ class Logo extends Component {
           <div className='flex items-center justify-center mt-2 lg:hidden'>
             <MotionLink href="/"
             className='w-16 h-16 bg-dark text-light flex items-center justify-center font-bold rounded-full'
-            >KJ</MotionLink>
+            >Kai J.</MotionLink>
           </div>
       </header>
         
