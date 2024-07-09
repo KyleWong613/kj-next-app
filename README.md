@@ -25,7 +25,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 This is my NextJS Portfolio which is deployed on Vercel.
 
-Vercel URL: [KJ Next App](https://kaijeng-nextportfolio.vercel.app/)
+Vercel URL: [Kai J. Next App](https://kaijeng-nextportfolio.vercel.app/)
 
 ## Deploy on Vercel
 

@@ -110,7 +110,7 @@ export default function About() {
                   <div className="col-span-12">
                     <FeaturedProject 
                     img="rwgenting.png"
-                    title="Resords World"
+                    title="RWG"
                     summary="CMS Project in collaboration with Adobe AEM"
                     link="https://www.rwgenting.com"
                     year="2022"
