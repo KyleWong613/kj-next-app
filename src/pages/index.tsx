@@ -22,7 +22,8 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Turning Ideas into Code" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl xl:text-6xl' />
               <p>
-                As a Software Engineer, I am dedicated to turn ideas into creative web applications. Explore my projects and experiences, showcasing my various fields in Software Development.
+                As a Software Engineer with over 6 years of experience, I specialize in transforming innovative ideas into scalable web applications. With a strong background in both front-end and back-end development, 
+                I have successfully led AWS cloud migration projects and developed robust solutions using .NET technologies. I am passionate about building efficient, high-performing, and user-friendly software. Explore my portfolio to discover a diverse range of projects that showcase my expertise in AWS migration, .NET development, and delivering impactful software solutions across various domains.              
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link href="/Resume.pdf" target={"blank"}

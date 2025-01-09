@@ -94,10 +94,10 @@ export default function About() {
         <main className={styles.main}>
             <AnimatedText text="About Me" className='dark:text-light text-8xl font-bold w-full capitalize !text-6xl xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl xl:text-6xl' />
             <div className='w-[75%] mx-auto relative'>
-              <div className="absolute left-12 top-0 h-full bg-dark origin-top ">
+              <div className="absolute left-4 top-0 h-full bg-dark origin-top ">
                 <div className="grid w-full grid-cols-8 gap-16">
                   <div className="col-span-3 flex flex-col items-start justify-start">
-                    <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Welcome to my Portfolio!</h2>
+                    <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Portfolio</h2>
                   </div>
                 </div>
                 <p className='font-medium'>Hi, I am Kai Jeng, I am a Software Engineer

@@ -58,7 +58,7 @@ export default function Experiences() {
           <main className={styles.main}>
           <AnimatedText text="Experiences" className='dark:text-light text-8xl font-bold w-full capitalize !text-6xl xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl xl:text-6xl' />
             <div className='w-[75%] mx-auto relative'>
-              <div className="absolute left-12 top-0 h-full bg-dark origin-top ">
+              <div className="absolute left-4 top-0 h-full bg-dark origin-top ">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">My Career</h2>
 
               <Image
@@ -72,10 +72,10 @@ export default function Experiences() {
                 work="Web & Wallet Team"
                 worklink= "h"
                 worklinkdesc= ""
-                work2="Governs most of the in-house applications such as Loan System, Member SignUp system, Documents Management System"
+                work2="Governs most of the in-house applications such as Loan System, Membership Sign Up system, Documents Management System"
                 worklink2 = ""
                 worklinkdesc2=''
-                work3="Collaborates with Vendors such as Finology, Wander, Tess, Silverlake to enhance on systems"/>
+                work3="Collaborates with Vendors such as Finology, Softspace, Wander, Tookitaki, Tess, Silverlake to enhance on systems"/>
 
               <Image
                   className="my-8 first:mt-0 last:mb-0 flex-col"
@@ -121,7 +121,7 @@ export default function Experiences() {
             <div className='my-10 '>
             <AnimatedText text="Education" className='dark:text-light text-8xl font-bold w-full capitalize !text-6xl xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl xl:text-6xl' />
               <div className='w-[75%] mx-auto relative '>         
-                <div className="absolute left-12 top-0 h-full bg-dark origin-top ">
+                <div className="absolute left-4 top-0 h-full bg-dark origin-top ">
                 <Image
                       className="my-8 first:mt-0 last:mb-0 flex-col"
                       src="/monash.png"

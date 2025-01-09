@@ -31,10 +31,10 @@ const Navbar = () => {
           <Circle />
           <Logo />
           <nav>
-            <Link href="/" className='mr-4'>Home</Link>
-            <Link href="/about" className='mr-4'>About</Link>
-            <Link href="/contact" className='mr-4'>Contact</Link>
-            <Link href="/experiences" className='mr-4'>Experiences</Link>
+            <Link href="/" className='mr-[2rem]'>Home</Link>
+            <Link href="/about" className='mr-[2rem]'>About</Link>
+            <Link href="/contact" className='mr-[2rem]'>Contact</Link>
+            <Link href="/experiences" className='mr-[2rem]'>Experiences</Link>
           </nav>
           <nav className="flex items-center justify-center flex-wrap">
             <motion.a href="https://github.com/KyleWong613" target={"_blank"}
